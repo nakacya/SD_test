@@ -38,7 +38,7 @@ resource "aws_instance" "terraform_2" {
   subnet_id              = "subnet-91b257e6"
 
   tags = {
-    Name = "ExampleTerraformInstance"
+    Name = "ExampleTerraformInstance_2"
   }
 }
 
