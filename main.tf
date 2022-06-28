@@ -30,7 +30,7 @@ resource "aws_instance" "terraform" {
   }
 }
 
-resource "aws_instance" "terraform" {
+resource "aws_instance" "terraform_2" {
   ami                    = "ami-01e49e57cdc5b6f8d"
   instance_type          = "t3.micro"
   key_name               = "nakacya"
